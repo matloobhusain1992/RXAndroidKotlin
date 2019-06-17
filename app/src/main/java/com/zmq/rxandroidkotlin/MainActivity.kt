@@ -17,9 +17,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         inti()
         OwnObservable.create()
-        println("hii")
-        println("Hello")
-        println("Welcome Child")
     }
 
     private fun inti(){
