@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         inti()
         OwnObservable.create()
         println("hii")
+        println("Hello")
     }
 
     private fun inti(){
