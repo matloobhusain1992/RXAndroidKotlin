@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         OwnObservable.create()
         println("hii")
         println("Hello")
+        println("Welcome Child")
     }
 
     private fun inti(){
