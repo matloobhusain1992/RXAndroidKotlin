@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         inti()
         OwnObservable.create()
         for (i in 0..2){
-            println(i)
+            println("main thread")
         }
     }
 
