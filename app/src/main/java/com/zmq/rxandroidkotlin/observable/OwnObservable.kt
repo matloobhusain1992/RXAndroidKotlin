@@ -26,7 +26,7 @@ class OwnObservable {
                 }
 
             })
-            
+
 
             var observer = object : Observer<String> {
                 override fun onNext(t: String) {
