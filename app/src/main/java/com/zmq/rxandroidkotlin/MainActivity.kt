@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         for (i in 0..2){
             println("main thread")
         }
+        println("finish")
     }
 
     private fun inti(){
