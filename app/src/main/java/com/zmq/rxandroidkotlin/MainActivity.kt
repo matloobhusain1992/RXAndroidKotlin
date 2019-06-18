@@ -17,9 +17,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         inti()
         OwnObservable.create()
-        for (i in 0..2){
-            println("main thread")
-        }
     }
 
     private fun inti(){
@@ -30,9 +27,5 @@ class MainActivity : AppCompatActivity() {
 
             }
         })
-    }
-
-    fun sum(a : Int,b : Int):Int{
-        return a+b;
     }
 }
